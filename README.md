@@ -1,1 +1,1 @@
-# admin_dashboard
+The objective of this project is to build a full dashboard design usign Grid for the majority of the layout,
