@@ -14,7 +14,37 @@
 .header
 {
     background-color: white;
-    
+    display: grid;
+    gap: 10px;
+}
+
+.header .top-section
+{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+
+    padding-top: 20px;
+}
+
+.top-section .searchbar
+{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 10px;
+
+    padding-left: 40px;
+}
+
+.searchbar #search
+{
+    width: 500px;
+}
+
+.top-section .profile
+{
+    display: grid;
+    grid-template-columns: auto auto 1fr;
+    gap: 15px;
 }
 
 .sidebar
