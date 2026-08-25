@@ -135,12 +135,44 @@
     padding: 20px 10px 40px 10px;
 }
 
-.main-content .projects
-{
-    background-color: red;
-    
+.main-content .your-projects
+{    
     display: grid;
+    grid-template-rows: auto 1fr;
+
     grid-row: 1 / 3;
+}
+
+.your-projects .projects
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+
+    padding: 20px 0;
+}
+
+.projects .card-project
+{
+    background-color: white;
+
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    
+    padding: 25px;
+
+    border-radius: 15px;
+}
+
+.card-project .card-icons
+{
+    display: grid;
+    justify-content: end;
+    grid-auto-flow: column;
+
+    gap: 10px;
+    
+    margin-top: 10px;
 }
 
 .main-content .announcements
