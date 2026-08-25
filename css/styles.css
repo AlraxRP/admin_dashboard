@@ -127,4 +127,28 @@
 .main-content
 {
     background-color: #cdc8c8;
+    
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 20px;
+
+    padding: 20px 10px 40px 10px;
+}
+
+.main-content .projects
+{
+    background-color: red;
+    
+    display: grid;
+    grid-row: 1 / 3;
+}
+
+.main-content .announcements
+{
+    background-color: green;
+}
+
+.main-content .trending
+{
+    background-color: darkcyan;
 }
