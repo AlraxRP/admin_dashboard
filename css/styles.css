@@ -130,6 +130,7 @@
     
     display: grid;
     grid-template-columns: 3fr 1fr;
+    grid-template-rows: 1fr 1fr;
     gap: 20px;
 
     padding: 20px 10px 40px 10px;
@@ -177,10 +178,37 @@
 
 .main-content .announcements
 {
-    background-color: green;
+    display: grid;
+    grid-template-rows: auto 1fr;
+
+    gap: 20px;
+}
+
+.announcements .content
+{
+    background-color: white;
+    display: grid;
+
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 20px;
+
+    padding: 30px;
+
+    border-radius: 15px;
+}
+
+.announcements .card
+{
+    padding-bottom: 20px;
+}
+
+.announcements .card:not(:last-child)
+{ 
+    border-bottom: 1px solid black;
 }
 
 .main-content .trending
 {
-    background-color: darkcyan;
+    background-color: white;
 }
