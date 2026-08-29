@@ -15,7 +15,7 @@
 {
     background-color: white;
     display: grid;
-    gap: 10px;
+    row-gap: 10px;
 }
 
 .header .top-section
@@ -33,18 +33,55 @@
     gap: 10px;
 
     padding-left: 40px;
+    padding-right: 20px;
+}
+
+.searchbar .icon
+{
+    height: 100%;
 }
 
 .searchbar #search
 {
-    width: 500px;
+    background-color: #e1e8f0;
+
+    font-size: 1.3em;
+
+    width: 100%;
+    height: 100%;
+
+    border-radius: 15px;
+    border: none;
+
+    align-items: center;
 }
 
 .top-section .profile
 {
     display: grid;
     grid-template-columns: auto auto 1fr;
-    gap: 15px;
+    align-items: center;
+
+    gap: 20px;
+
+    margin-left: 50px;
+}
+
+.profile .user-img
+{
+    height: 40px;
+    width: 40px;
+}
+
+.profile .icon
+{
+    height: 100%;
+}
+
+.profile .user-name
+{
+    font-size: 1.3em;
+    font-weight: bold;
 }
 
 .header .bottom-section
@@ -60,12 +97,25 @@
     display: grid;
     grid-template-columns: auto 1fr;
     gap: 0 15px;
+
+    font-weight: bold;
+
+    padding-left: 50px;
+
+    align-items: center;
 }
 
 .welcome .profile-img
 {
     grid-row: 1 / 3;
-    padding-left: 50px;
+
+    height: 60px;
+    width: 60px;
+}
+
+.welcome .name
+{
+    font-size: 1.5em;
 }
 
 .bottom-section .buttons
@@ -79,7 +129,7 @@
 
 .sidebar
 {
-    background-color: rgb(39, 167, 232);
+    background-color: #1892d3;
     grid-row: 1 / 3;
 
     display: grid;
