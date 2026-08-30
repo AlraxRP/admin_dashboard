@@ -62,9 +62,9 @@
     grid-template-columns: auto auto 1fr;
     align-items: center;
 
-    gap: 20px;
+    gap: 30px;
 
-    margin-left: 50px;
+    margin-left: 95px;
 }
 
 .profile .user-img
@@ -118,13 +118,28 @@
     font-size: 1.5em;
 }
 
-.bottom-section .buttons
+.buttons ul
 {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 100px  100px 100px;
     gap: 30px;
 
-    padding-right: 40px;
+    list-style: none;
+}
+
+.bottom-section .buttons button
+{
+    background-color: #1892d3;
+
+    color: white;
+    font-size: 1.1em;
+    font-weight: bold;
+
+    height: 50px;
+    width: 100px;
+
+    border-radius: 25px;
+    border: none;
 }
 
 .sidebar
