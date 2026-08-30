@@ -3,7 +3,7 @@ The objective of this project is to build a full dashboard design usign Grid for
 Icons obtained from:
 https://pictogrammers.com/library/mdi/
 
-Links of images use in the project:
+Links to images use in the project:
 https://cdn.shopify.com/s/files/1/0040/8997/0777/files/Cute_Bunny_7d_1024x1024.jpg?v=1698453869
 
 https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGv10gRLbx1yEf_FMxPoUuj1tjI6IZMVvcGsmtbfwSsw&s=10
